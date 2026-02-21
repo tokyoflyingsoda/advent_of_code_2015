@@ -29,4 +29,6 @@ def count_lucky_houses_with_robo(instructions):
 
     return len(visited_houses)
 
-print(count_lucky_houses_with_robo(input_text))
+
+# Test cases from your examples
+print(f" visits: {count_lucky_houses_with_robo(input_text)}")
