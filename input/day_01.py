@@ -8,4 +8,4 @@ for char in input_text:
     elif char == ')':
         floor -= 1
 
-print(f"最终楼层: {floor}")
+print(floor)

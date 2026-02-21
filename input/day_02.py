@@ -10,5 +10,5 @@ for index, char in enumerate(input_text):
         floor -= 1
     if floor == -1:
         position = index + 1
-        print(f"Santa enters the basement at position: {position}")
+        print(position)
         break

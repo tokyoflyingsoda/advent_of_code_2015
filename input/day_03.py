@@ -20,4 +20,4 @@ def count_lucky_houses(instructions):
     return len(visited_houses)
 
 
-print(f"visits: {count_lucky_houses(input_text)}")
+print(count_lucky_houses(input_text))
